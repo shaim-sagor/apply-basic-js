@@ -18,7 +18,7 @@ function mileToKm(miles) {
 
 }
 
-var givenMiles = 43;
+var givenMiles = 1;
 var kmResult = mileToKm(givenMiles);
 console.log('total km is ', kmResult);
 
@@ -29,6 +29,6 @@ function kmToMiles(kms) {
     return mile;
 }
 
-var givenKm = 10;
+var givenKm = 1;
 var mileResult = kmToMiles(givenKm);
 console.log('miles result is ', mileResult);
