@@ -18,8 +18,8 @@ function arraySum(array) {
         sum = sum + element;
 
     }
-
     return sum;
+
 }
 
 let input = arraySum([1, 2, 3, 4, 5, 6]);
