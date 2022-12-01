@@ -1,3 +1,5 @@
+//inch to feet 
+
 function inchToFeet(inches) {
     var feet = inches / 12;
     return feet;
@@ -9,26 +11,13 @@ var result = inchToFeet(givenInches);
 var result1 = inchToFeet(givenInches1);
 console.log('the result feet is ', result, result1);
 
+//feet to inch
 
-//mile to km
-
-function mileToKm(miles) {
-    var km = miles * 1.61;
-    return km;
+function feetToInch(feet) {
+    var inch = feet * 12;
+    return inch;
 
 }
 
-var givenMiles = 1;
-var kmResult = mileToKm(givenMiles);
-console.log('total km is ', kmResult);
-
-// km to miles
-
-function kmToMiles(kms) {
-    var mile = kms * 0.62;
-    return mile;
-}
-
-var givenKm = 1;
-var mileResult = kmToMiles(givenKm);
-console.log('miles result is ', mileResult);
+const givenFeet = feetToInch(120);
+console.log('the result is', givenFeet, 'Inches');
